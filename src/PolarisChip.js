@@ -5,7 +5,7 @@ export class PolarisChip extends LitElement {
     return {
       name: { type: String },
       link: { type: String },
-      active: { type: Boolean, Reflect: true}
+      active: { type: Boolean, reflect: true}
     };
   }
 
